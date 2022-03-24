@@ -4,7 +4,7 @@
         box-sizing: border-box;
         font-family: 'Montserrat', sans-serif;
     }
-    /* Meni=u */
+    /* Menu */
     
     .menu-list {
         color: #161616;
@@ -89,6 +89,7 @@
         .ul1-li {
             display: none;
         }
+        /* Divs da imagem do fone */
         .divFone {
             margin-right: 8%;
         }
@@ -108,6 +109,7 @@
             margin-top: -5px;
             margin-left: 15px;
         }
+        /* Rodapé Produto */
         .rodapeProduto {
             background-color: #ca3b3a;
             color: #fff;
@@ -116,11 +118,14 @@
         }
         .produtoRodapeItem {
             margin-top: 4%;
+            text-align: center;
+            margin-left: 50%;
         }
     }
     /* Small devices (landscape phones, 576px and up) */
     
     @media (min-width: 576px) and (max-width: 767.98px) {
+        /* Divs da imagem do fone */
         .divFone {
             margin-right: 15%;
         }
@@ -148,7 +153,6 @@
             margin-top: 22%;
             margin-left: 12%;
         }
-        /* Coluna Textos */
         .colunaTextos2 {
             margin-top: 22%;
             margin-left: 35%;
@@ -165,7 +169,7 @@
             margin-top: 22%;
             margin-left: 50%;
         }
-        .colunaTextos {
+        .colunaTextos2 {
             margin-top: 22%;
             margin-left: 15%;
         }
@@ -186,6 +190,7 @@
             margin-top: 22%;
             margin-left: 123%;
         }
+        /* Rodapé produto */
         .produtoRodapeItem {
             text-align: center;
         }
